@@ -1,6 +1,6 @@
 //Q1
-// JS file is linked to html using script element with 
-// attribute src="path to js file" wihtin body of html file.
+// JS file is linked to html using script tag with 
+// attribute src="path to js file" after html code within html file.
 
 //Q2
 let container1 = document.getElementById("container1");
