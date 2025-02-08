@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="manage-task-field">
+        <div class="input">
+            <p>Task: </p>
+            <input type="text" id="task-input">
+        </div>
+        <div class="input">
+            <p>Priority: </p>
+            <select name="priority" id="priority">
+                <option value="0">Low</option>
+                <option value="1">High</option>
+            </select>
+        </div>
+        <button>Add task</button>
+        <button>Show only the important tasks</button>
+        <button>Show the tasks that are not important</button>
+        <button>Show all the tasks</button>
+    </div>
+    <div class="display-task-field" id="task-container">
+        <!-- Tasks are displayed here -->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
